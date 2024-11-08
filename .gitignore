@@ -1,2 +1,12 @@
-.connector
-_bclib_deactivated
+/*
+
+!.gitignore
+!README.MD
+
+!mods
+!config
+!defaultconfig
+!emotes
+!kubejs
+!resourcepacks
+!shaderpacks

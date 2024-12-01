@@ -4,6 +4,28 @@ ServerEvents.recipes(event => {
   // console.info(Object.keys(event.recipes));
   // console.info(Object.keys(event.recipes.mekanismCrushing));
 
+
+  let removeList = [
+    'waystones:warp_stone'
+  ]
+  removeList.forEach(item => {
+    event.remove({ output: item });
+  });
+
+  
+  event.shaped(
+    Item.of('waystones:warp_stone', 1), // arg 1: output
+    [
+      'ABA',
+      '   ', // arg 2: the shape (array of strings)
+      '   '
+    ],
+    {
+      A: 'minecraft:flint',
+      B: 'minecraft:ender_pearl'
+    }
+  )
+
   // event.shapeless(
   //   Item.of('betterend:ender_dust', 1), // arg 1: output
   //   [
@@ -13,22 +35,22 @@ ServerEvents.recipes(event => {
 
   // Crushing
   let crushingList = [
-    ["betterend:ender_shard", "betterend:ender_dust", 1]
+    // ["betterend:ender_shard", "betterend:ender_dust", 1]
   ];
 
 
   // Charging
   let chargingList = [
     ["minecraft:glass_bottle", "irons_spellbooks:lightning_bottle"],
-    ["cloudstorage:cloud", "cloudstorage:static_cloud"]
+    // ["cloudstorage:cloud", "cloudstorage:static_cloud"]
   ];
 
 
   // Alloying
   let alloyList = [
-    ["minecraft:iron_ingot", "mysticalagriculture:end_agglomeratio", "betterend:thallasium_ingot", 1],
-    ["betterend:thallasium_ingot", "betterend:ender_dust", "betterend:terminite_ingot", 1],
-    ["minecraft:netherite_ingot", "betterend:terminite_ingot", "betterend:aeternium_ingot", 1],
+    // ["minecraft:iron_ingot", "mysticalagriculture:end_agglomeratio", "betterend:thallasium_ingot", 1],
+    // ["betterend:thallasium_ingot", "betterend:ender_dust", "betterend:terminite_ingot", 1],
+    // ["minecraft:netherite_ingot", "betterend:terminite_ingot", "betterend:aeternium_ingot", 1],
   ];
 
 

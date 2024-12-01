@@ -1,8 +1,12 @@
 {
+  "toms_trading_network": {
+    "vending_machine": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
+    "travelerscompass": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
     "item_storage": true,
@@ -54,6 +58,10 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "fluiddrawerslegacy": {
+    "controller": true,
+    "fluiddrawer": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -62,8 +70,17 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "mcjtylib": {
     "jadeaddons": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "lootr": {
     "info": true
@@ -80,11 +97,21 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "hammerlib": {
+    "root": true
   },
   "mekanism": {
     "infuse_type": true,
@@ -102,13 +129,11 @@
   "pipez": {
     "pipe": true
   },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
-  },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
   },
   "create": {
     "filter": true,
@@ -120,9 +145,6 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "waystones": {
     "waystone": true

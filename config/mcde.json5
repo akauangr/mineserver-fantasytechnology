@@ -107,6 +107,46 @@
 	"thirdSlotBaseChance": 0.25,
 	// Defines how slot chances increases with advancements
 	"progressChances": {
+		"minecraft:adventure/totem_of_undying": {
+			"second": 0.013698999769985676,
+			"third": 0.015130000188946724
+		},
+		"minecraft:husbandry/complete_catalogue": {
+			"second": 0.017570000141859055,
+			"third": 0.024080000817775726
+		},
+		"minecraft:adventure/two_birds_one_arrow": {
+			"second": 0.017173999920487404,
+			"third": 0.02308499999344349
+		},
+		"minecraft:end/levitate": {
+			"second": 0.01641000062227249,
+			"third": 0.021209999918937683
+		},
+		"minecraft:nether/fast_travel": {
+			"second": 0.015689000487327576,
+			"third": 0.019495999440550804
+		},
+		"minecraft:husbandry/bred_all_animals": {
+			"second": 0.01433200016617775,
+			"third": 0.016464000567793846
+		},
+		"minecraft:story/cure_zombie_villager": {
+			"second": 0.011432000435888767,
+			"third": 0.01078999973833561
+		},
+		"minecraft:husbandry/froglights": {
+			"second": 0.012513999827206135,
+			"third": 0.012776999734342098
+		},
+		"minecraft:nether/create_beacon": {
+			"second": 0.016793999820947647,
+			"third": 0.022135000675916672
+		},
+		"minecraft:adventure/hero_of_the_village": {
+			"second": 0.013093000277876854,
+			"third": 0.013903999701142311
+		},
 		"minecraft:adventure/kill_all_mobs": {
 			"second": 0.019229000434279442,
 			"third": 0.028516000136733055
@@ -170,46 +210,6 @@
 		"minecraft:adventure/kill_mob_near_sculk_catalyst": {
 			"second": 0.011694000102579594,
 			"third": 0.011256000027060509
-		},
-		"minecraft:adventure/totem_of_undying": {
-			"second": 0.013698999769985676,
-			"third": 0.015130000188946724
-		},
-		"minecraft:husbandry/complete_catalogue": {
-			"second": 0.017570000141859055,
-			"third": 0.024080000817775726
-		},
-		"minecraft:adventure/two_birds_one_arrow": {
-			"second": 0.017173999920487404,
-			"third": 0.02308499999344349
-		},
-		"minecraft:end/levitate": {
-			"second": 0.01641000062227249,
-			"third": 0.021209999918937683
-		},
-		"minecraft:nether/fast_travel": {
-			"second": 0.015689000487327576,
-			"third": 0.019495999440550804
-		},
-		"minecraft:husbandry/bred_all_animals": {
-			"second": 0.01433200016617775,
-			"third": 0.016464000567793846
-		},
-		"minecraft:story/cure_zombie_villager": {
-			"second": 0.011432000435888767,
-			"third": 0.01078999973833561
-		},
-		"minecraft:husbandry/froglights": {
-			"second": 0.012513999827206135,
-			"third": 0.012776999734342098
-		},
-		"minecraft:nether/create_beacon": {
-			"second": 0.016793999820947647,
-			"third": 0.022135000675916672
-		},
-		"minecraft:adventure/hero_of_the_village": {
-			"second": 0.013093000277876854,
-			"third": 0.013903999701142311
 		}
 	},
 	/* List of entries which define what enchantments would unlock after obtaining certain advancements
